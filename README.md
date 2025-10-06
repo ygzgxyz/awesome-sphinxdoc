@@ -2,7 +2,7 @@
 
 ## About the Project
 
-Awesome Sphinxdoc is a curated collection of valuable resources for Sphinx, the powerful and flexible documentation generator. This project aims to provide a centralized and easily navigable list of extensions, themes, tutorials, and other tools that enhance the Sphinx documentation ecosystem. It features multi-language support and tag-based filtering to help users quickly find the resources they need.
+Awesome Sphinxdoc is a curated collection of valuable resources for Sphinx, the powerful and flexible documentation generator. This project aims to provide a centralized and easily navigable list of extensions, themes, tutorials, and other tools that enhance the Sphinx documentation ecosystem. It features multi-language support and tag-based filtering to help users quickly find the resources they need. You can view the content at https://ygzgxyz.github.io/awesome-sphinxdoc.
 
 ## Technology Stack
 
