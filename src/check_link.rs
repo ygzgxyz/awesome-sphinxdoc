@@ -17,7 +17,7 @@ pub struct Data {
 }
 
 #[tokio::main]
-async fn main() -> Result<(), Box<dyn std::error.Error>> {
+async fn main() -> Result<(), Box<dyn std::error::Error + Send + Sync + 'static>> {
     let toml_str = fs::read_to_string("links.toml")?;
 
     let data: Data = toml::from_str(&toml_str)?;
