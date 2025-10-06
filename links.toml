@@ -203,12 +203,6 @@ description = "A sphinx extension to list tools installed on the machine generat
 tags = ["extensions"]
 
 [[links]]
-name = "which tools are installed on Readthedocs"
-link = "https://packages.readthedocs.io"
-description = "when writing your own extension."
-tags = ["extensions"]
-
-[[links]]
 name = "sphinx-sitemap"
 link = "https://github.com/jdillard/sphinx-sitemap"
 description = "sphinx-sitemap silently generates a sitemap for HTML builds."
