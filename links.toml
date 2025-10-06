@@ -223,7 +223,7 @@ tags = ["extensions"]
 [[links]]
 name = "jsonschema"
 link = "https://json-schema.org"
-description = "into an integral part of your documentation. Useful when you want a single source for both validation and documentation of your JSON entities."
+description = "JSON Schema is a vocabulary that allows you to annotate and validate JSON documents."
 tags = ["extensions"]
 
 [[links]]
