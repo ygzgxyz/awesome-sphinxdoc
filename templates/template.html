@@ -194,13 +194,13 @@
                 ].sort();
 
                 // Create global tag buttons
-                globalTagsContainer.innerHTML +=
-                    '<a href="#" class="tag-button active">All</a>';
+                let tagButtonsHTML = '<a href="#" class="tag-button active">All</a>';
                 uniqueTags.forEach((tag) => {
                     if (tag) {
-                        globalTagsContainer.innerHTML += `<a href="#" class="tag-button">${tag}</a>`;
+                        tagButtonsHTML += `<a href="#" class="tag-button">${tag}</a>`;
                     }
                 });
+                globalTagsContainer.innerHTML = tagButtonsHTML;
 
                 const allTagButtons = Array.from(
                     document.querySelectorAll(".tag-button"),
