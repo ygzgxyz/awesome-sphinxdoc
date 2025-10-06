@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Awesome Sphinx</title>
+        <link
+            rel="stylesheet"
+            href="https://cdn.simplecss.org/simple.min.css"
+        />
+        <style>
+            .tags {
+                margin-left: 1rem;
+            }
+            .link-title {
+                font-weight: bold;
+            }
+            .tag-button {
+                background-color: #f0f0f0;
+                border: 1px solid #ccc;
+                border-radius: 4px;
+                color: #333;
+                cursor: pointer;
+                display: inline-block;
+                font-size: 0.8rem;
+                margin-right: 0.5rem;
+                padding: 0.2rem 0.5rem;
+                text-decoration: none;
+            }
+            .tag-button.active {
+                background-color: #007bff;
+                color: white;
+                border-color: #007bff;
+            }
+            #global-tags-container {
+                margin-bottom: 1rem;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Awesome Sphinx</h1>
+            <div id="language-selector">
+                <a href="#" data-lang="ko" class="lang-button">한국어</a> |
+                <a href="#" data-lang="en" class="lang-button">English</a> | <a href="#" data-lang="ja" class="lang-button">日本語</a> |
+                <a href="#" data-lang="zh" class="lang-button">中文</a>
+            </div>
+            <div class="lang-content" lang="en">
+                <p>A curated list of awesome resources for <a href="https://www.sphinx-doc.org/">Sphinx</a>.</p>
+            </div>
+            <div class="lang-content" lang="ko" style="display: none">
+                <p><a href="https://www.sphinx-doc.org/">Sphinx</a>를 위한 엄선된 멋진 리소스 목록입니다.</p>
+            </div>
+            <div class="lang-content" lang="ja" style="display: none">
+                <p><a href="https://www.sphinx-doc.org/">Sphinx</a>の素晴らしいリソースの厳選されたリストです。</p>
+            </div>
+            <div class="lang-content" lang="zh" style="display: none">
+                <p><a href="https://www.sphinx-doc.org/">Sphinx</a>的精选优质资源列表。</p>
+            </div>
+            <div id="global-tags-container"></div>
+        </header>
+        <main>
+            <div class="main-content" lang="en">
+                <p>
+                    Sphinx is a powerful and flexible documentation generator that assists in effectively managing and publishing documentation for various projects. This page presents a curated list of resources designed to help you leverage Sphinx to its fullest potential. Explore official documentation, tutorials, extensions, themes, and other valuable assets to significantly enhance your documentation workflow.
+                </p>
+                <p class="notice">
+                    <b>Can't find the link you're looking for?</b><br />
+                    Please add a link! You can create a pull request on GitHub
+                    <a href="https://github.com/ygzgxyz/awesome-sphinxdoc"
+                        >ygzgxyz/awesome-sphinxdoc</a
+                    >. Your contributions are always welcome!
+                </p>
+                <p>
+                    This project is inspired by the various
+                    <a href="https://github.com/sindresorhus/awesome"
+                        >awesome lists</a
+                    >
+                    in the community.<br />
+                    Licensed under a
+                    <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+                        >Creative Commons Attribution-ShareAlike 4.0 International
+                        License</a
+                    >.
+                </p>
+            </div>
+            <div class="main-content" lang="ko" style="display: none">
+                <p>
+                    Sphinx는 다양한 프로젝트의 문서를 효과적으로 관리하고 게시하는 데 도움을 주는 강력하고 유연한 문서 생성기입니다. 이 페이지는 Sphinx를 최대한 활용하는 데 도움이 되도록 엄선된 리소스 목록을 제공합니다. 공식 문서, 튜토리얼, 확장 기능, 테마 및 기타 유용한 자료를 탐색하여 문서화 작업을 크게 향상시키세요.
+                </p>
+                <p class="notice">
+                    <b>찾으시는 링크가 없으신가요?</b><br />
+                    링크를 추가해주세요! GitHub에서 풀 리퀘스트를 생성할 수 있습니다
+                    <a href="https://github.com/ygzgxyz/awesome-sphinxdoc"
+                        >ygzgxyz/awesome-sphinxdoc</a
+                    >. 여러분의 기여는 언제나 환영합니다!
+                </p>
+                <p>
+                    이 프로젝트는 커뮤니티의 다양한
+                    <a href="https://github.com/sindresorhus/awesome"
+                        >awesome lists</a
+                    >
+                    에서 영감을 받았습니다.<br />
+                    <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+                        >크리에이티브 커먼즈 저작자표시-동일조건변경허락 4.0 국제
+                        라이선스</a
+                    >
+                    하에 라이선스가 부여됩니다。
+                </p>
+            </div>
+            <div class="main-content" lang="ja" style="display: none">
+                <p>
+                    Sphinxは、さまざまなプロジェクトのドキュメントを効果的に管理および公開するのに役立つ、強力で柔軟なドキュメントジェネレーターです。このページでは、Sphinxを最大限に活用するのに役立つ厳選されたリソースのリストを紹介します。公式ドキュメント、チュートリアル、拡張機能、テーマ、その他の貴重なアセットを探索して、ドキュメント作成ワークフローを大幅に強化してください。
+                </p>
+                <p class="notice">
+                    <b>お探しのリンクが見つかりませんか？</b><br />
+                    リンクを追加してください！GitHubでプルリクエストを作成できます
+                    <a href="https://github.com/ygzgxyz/awesome-sphinxdoc"
+                        >ygzgxyz/awesome-sphinxdoc</a
+                    >。皆様のご貢献を歓迎いたします！
+                </p>
+                <p>
+                    このプロジェクトは、コミュニティの様々な
+                    <a href="https://github.com/sindresorhus/awesome"
+                        >awesome lists</a
+                    >
+                    に触発されています。<br />
+                    <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+                        >クリエイティブ・コモンズ 表示-継承 4.0 国際
+                        ライセンス</a
+                    >
+                    の下でライセンスされています。
+                </p>
+            </div>
+            <div class="main-content" lang="zh" style="display: none">
+                <p>
+                    Sphinx 是一个功能强大且灵活的文档生成器，可帮助有效管理和发布各种项目的文档。此页面提供了精选资源列表，旨在帮助您充分利用 Sphinx 的潜力。探索官方文档、教程、扩展、主题和其他有价值的资产，以显著增强您的文档工作流程。
+                </p>
+                <p class="notice">
+                    <b>找不到您要找的链接？</b><br />
+                    请添加链接！您可以在 GitHub 上创建拉取请求
+                    <a href="https://github.com/ygzgxyz/awesome-sphinxdoc"
+                        >ygzgxyz/awesome-sphinxdoc</a
+                    >。欢迎您的贡献！
+                </p>
+                <p>
+                    本项目受到社区中各种
+                    <a href="https://github.com/sindresorhus/awesome"
+                        >awesome lists</a
+                    >
+                    的启发。<br />
+                    根据
+                    <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+                        >知识共享署名-相同方式共享 4.0 国际许可协议</a
+                    >
+                    获得许可。
+                </p>
+            </div>
+            <ul>
+                {% for link in links %}
+                <li data-tags="{{ link.tags | join(', ') }}">
+                    <a
+                        href="{{ link.link | safe }}"
+                        target="_blank"
+                        class="link-title"
+                        >{{ link.name | safe }}</a
+                    >: {{ link.description | safe }}
+                    <span class="tags">
+                        {% for tag in link.tags %}
+                        <a href="#" class="tag-button">{{ tag | safe }}</a>
+                        {% endfor %}
+                    </span>
+                </li>
+                {% endfor %}
+            </ul>
+        </main>
+
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const globalTagsContainer = document.getElementById(
+                    "global-tags-container",
+                );
+                const mainContent = document.querySelector("main");
+                const links = Array.from(mainContent.querySelectorAll("li"));
+
+                // Create a single URLSearchParams instance
+                const urlParams = new URLSearchParams(window.location.search);
+
+                // Get all unique tags
+                const uniqueTags = [
+                    ...new Set(
+                        links.flatMap((link) => link.dataset.tags.split(", ")),
+                    ),
+                ].sort();
+
+                // Create global tag buttons
+                globalTagsContainer.innerHTML +=
+                    '<a href="#" class="tag-button active">All</a>';
+                uniqueTags.forEach((tag) => {
+                    if (tag) {
+                        globalTagsContainer.innerHTML += `<a href="#" class="tag-button">${tag}</a>`;
+                    }
+                });
+
+                const allTagButtons = Array.from(
+                    document.querySelectorAll(".tag-button"),
+                );
+
+                function setActiveTag(selectedTag) {
+                    allTagButtons.forEach((button) => {
+                        if (button.textContent.trim() === selectedTag) {
+                            button.classList.add("active");
+                        } else {
+                            button.classList.remove("active");
+                        }
+                    });
+                }
+
+                function filterLinks(selectedTag) {
+                    links.forEach((link) => {
+                        const linkTags = link.dataset.tags.split(", ");
+                        if (
+                            selectedTag === "All" ||
+                            linkTags.includes(selectedTag)
+                        ) {
+                            link.style.display = "";
+                        } else {
+                            link.style.display = "none";
+                        }
+                    });
+                    // Update URL parameter for tag
+                    const url = new URL(window.location);
+                    if (selectedTag === "All") {
+                        url.searchParams.delete("tag");
+                    } else {
+                        url.searchParams.set("tag", selectedTag);
+                    }
+                    window.history.pushState({}, "", url);
+                }
+
+                allTagButtons.forEach((button) => {
+                    button.addEventListener("click", (event) => {
+                        event.preventDefault();
+                        const selectedTag = button.textContent.trim();
+                        setActiveTag(selectedTag);
+                        filterLinks(selectedTag);
+                    });
+                });
+
+                // Initial tag detection from URL
+                const urlTag = urlParams.get("tag");
+                if (urlTag) {
+                    setActiveTag(urlTag);
+                    filterLinks(urlTag);
+                } else {
+                    // If no tag in URL, ensure 'All' is active and filter accordingly
+                    setActiveTag("All");
+                    filterLinks("All");
+                }
+
+                // Language selection logic
+                const langButtons = document.querySelectorAll(
+                    "#language-selector .lang-button",
+                );
+                const langContents = document.querySelectorAll(".lang-content");
+
+                function setLanguage(lang) {
+                    langContents.forEach((content) => {
+                        if (content.getAttribute("lang") === lang) {
+                            content.style.display = "block";
+                        } else {
+                            content.style.display = "none";
+                        }
+                    });
+                    document
+                        .querySelectorAll(".main-content")
+                        .forEach((content) => {
+                            if (content.getAttribute("lang") === lang) {
+                                content.style.display = "block";
+                            } else {
+                                content.style.display = "none";
+                            }
+                        });
+                    langButtons.forEach((button) => {
+                        if (button.getAttribute("data-lang") === lang) {
+                            button.classList.add("active");
+                        } else {
+                            button.classList.remove("active");
+                        }
+                    });
+                    // Update URL parameter
+                    const url = new URL(window.location);
+                    url.searchParams.set("lang", lang);
+                    window.history.pushState({}, "", url);
+                }
+
+                langButtons.forEach((button) => {
+                    button.addEventListener("click", (event) => {
+                        event.preventDefault();
+                        const selectedLang =
+                            event.target.getAttribute("data-lang");
+                        setLanguage(selectedLang);
+                    });
+                });
+
+                // Initial language detection
+                const urlLang = urlParams.get("lang");
+                if (urlLang) {
+                    setLanguage(urlLang);
+                } else {
+                    const browserLang = navigator.language.split("-")[0]; // e.g., "en-US" -> "en"
+                    if (["en", "ko", "ja", "zh"].includes(browserLang)) {
+                        setLanguage(browserLang);
+                    } else {
+                        setLanguage("en"); // Default to English
+                    }
+                }
+            });
+        </script>
+    </body>
+</html>
+<!-- Template version: 2023-10-27-01 -->
