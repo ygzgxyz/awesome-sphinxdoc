@@ -355,7 +355,7 @@ tags = ["themes"]
 [[links]]
 name = "TYPO3 documentation"
 link = "https://docs.typo3.org/"
-description = ". Available from PyPi."
+description = "Official documentation and guides for TYPO3 users and developers."
 tags = ["themes"]
 
 [[links]]
