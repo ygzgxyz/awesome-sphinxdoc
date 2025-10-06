@@ -31,7 +31,7 @@ tags = ["extensions"]
 [[links]]
 name = "NumPy"
 link = "https://www.numpy.org/"
-description = "'s Sphinx extensions."
+description = "NumPy's Sphinx extensions."
 tags = ["extensions"]
 
 [[links]]
