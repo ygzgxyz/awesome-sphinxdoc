@@ -160,6 +160,9 @@ sphinx-jsonschema_
 sphinx-gitstamp_
    Makes the git timestamp for each page available to HTML templates.
 
+sphinx-tags_
+   A tiny Sphinx extension that implements blog-style tags for documentation.
+
 .. _autoclasstoc: https://autoclasstoc.readthedocs.io/en/latest/ 
 .. _blockdiag: http://blockdiag.com/en/blockdiag/index.html
 .. _breathe: https://github.com/michaeljones/breathe
@@ -199,6 +202,7 @@ sphinx-gitstamp_
 .. _nbsphinx: https://nbsphinx.readthedocs.io/en/latest/
 .. _sphinx-jsonschema: https://github.com/lnoor/sphinx-jsonschema
 .. _jsonschema: https://json-schema.org
+.. _sphinx-tags: https://github.com/melissawm/sphinx-tags
 
 Internationalizations
 ---------------------
