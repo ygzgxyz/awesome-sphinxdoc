@@ -477,3 +477,21 @@ name = "ghp-import"
 link = "https://pypi.python.org/pypi/ghp-import"
 description = "Script to overwrite a gh-pages/master branch with a .nojekyll file for GitHub Pages."
 tags = ["publication"]
+
+[[links]]
+name = "sphinx-comments"
+link = "https://github.com/executablebooks/sphinx-comments"
+description = "Add comments and annotation functionality to your Sphinx website."
+tags = ["extensions"]
+
+[[links]]
+name = "sphinx-revealjs"
+link = "https://github.com/attakei/sphinx-revealjs"
+description = "Sphinx extension with theme to generate Reveal.js presentation"
+tags = ["extensions"]
+
+[[links]]
+name = "sphinxcontrib-svg2pdfconverter"
+link = "https://github.com/missinglinkelectronics/sphinxcontrib-svg2pdfconverter"
+description = "Sphinx SVG to PDF Converter Extension"
+tags = ["extensions"]
