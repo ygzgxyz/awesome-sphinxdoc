@@ -2,7 +2,7 @@
 name = "Documenting Your Project With Sphinx"
 link = "https://github.com/brandon-rhodes/sphinx-tutorial"
 description = "Exercises for the Sphinx Tutorial that Brandon Rhodes often gives at PyCon."
-tags = ["tutorial"]
+tags = ["tutorials"]
 
 [[links]]
 name = "breathe"
@@ -440,43 +440,43 @@ tags = ["themes"]
 name = "Read the Docs"
 link = "https://readthedocs.io/"
 description = "Read the Docs hosts documentation, making it fully searchable and easy to find.  You can import your docs using any major version control system, including Mercurial, Git, Subversion, and Bazaar.  It supports webhooks so your docs get built when you commit code.  There's also support for versioning so you can build docs from tags and branches of your code in your repository. A full list of features is available."
-tags = ["publication"]
+tags = ["publications"]
 
 [[links]]
 name = "Okydoky"
 link = "https://pypi.python.org/pypi/Okydoky"
 description = "Automated docs builder using Sphinx/GitHub/Distribute for private use."
-tags = ["publication"]
+tags = ["publications"]
 
 [[links]]
 name = "sphinx-autobuild"
 link = "https://github.com/GaretJax/sphinx-autobuild"
 description = "Watch a Sphinx directory and rebuild the documentation when a change is detected."
-tags = ["publication"]
+tags = ["publications"]
 
 [[links]]
 name = "sphinx-server"
 link = "https://github.com/dldl/sphinx-server"
 description = "A universal Sphinx Server based on sphinx-autobuild with Docker support that can be used in production (self-hosted) and for documentation development, bundled with PlantUML, Graphviz and HTTP authentication."
-tags = ["publication"]
+tags = ["publications"]
 
 [[links]]
 name = "sphinx-me"
 link = "https://github.com/stephenmcd/sphinx-me"
 description = "Wraps your README-only projects in a dynamic Sphinx shell for hosting on Read the Docs."
-tags = ["publication"]
+tags = ["publications"]
 
 [[links]]
 name = "Sphinx to GitHub"
 link = "https://github.com/michaeljones/sphinx-to-github"
 description = "Script to prepare Sphinx html output for GitHub Pages."
-tags = ["publication"]
+tags = ["publications"]
 
 [[links]]
 name = "ghp-import"
 link = "https://pypi.python.org/pypi/ghp-import"
 description = "Script to overwrite a gh-pages/master branch with a .nojekyll file for GitHub Pages."
-tags = ["publication"]
+tags = ["publications"]
 
 [[links]]
 name = "sphinx-comments"
@@ -494,4 +494,10 @@ tags = ["extensions"]
 name = "sphinxcontrib-svg2pdfconverter"
 link = "https://github.com/missinglinkelectronics/sphinxcontrib-svg2pdfconverter"
 description = "Sphinx SVG to PDF Converter Extension"
+tags = ["extensions"]
+
+[[links]]
+name = "swagger-plugin-for-sphinx"
+link = "https://github.com/SAP/swagger-plugin-for-sphinx"
+description = "This is a handy plugin to bring Swagger and Sphinx together."
 tags = ["extensions"]
