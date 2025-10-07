@@ -2,508 +2,508 @@
 name = "Documenting Your Project With Sphinx"
 link = "https://github.com/brandon-rhodes/sphinx-tutorial"
 description = "Exercises for the Sphinx Tutorial that Brandon Rhodes often gives at PyCon."
-tags = ["tutorials"]
+tags = ["tutorial"]
 
 [[links]]
 name = "breathe"
 link = "https://github.com/michaeljones/breathe"
 description = "ReStructuredText and Sphinx bridge to Doxygen."
-tags = ["extensions"]
+tags = ["api-docs", "extension", "language-support"]
 
 [[links]]
 name = "docxsphinx"
 link = "https://github.com/mherkazandjian/docxsphinx"
 description = "Sphinx extension for building Microsoft Word docx files."
-tags = ["extensions"]
+tags = ["builder", "extension"]
 
 [[links]]
 name = "javasphinx"
 link = "https://github.com/bronto/javasphinx"
 description = "Sphinx extension for documenting Java projects."
-tags = ["extensions"]
+tags = ["extension", "language-support"]
 
 [[links]]
 name = "numpydoc"
 link = "https://github.com/numpy/numpydoc"
 description = "NumPy's Sphinx extensions."
-tags = ["extensions"]
+tags = ["autodoc", "extension"]
 
 [[links]]
 name = "Releases"
 link = "https://github.com/bitprophet/releases"
 description = "A Sphinx changelog-generating extension."
-tags = ["extensions"]
+tags = ["extension", "utility"]
 
 [[links]]
 name = "autoclasstoc"
 link = "https://autoclasstoc.readthedocs.io/en/latest/"
 description = "Make easier-to-navigate class documentation."
-tags = ["extensions"]
+tags = ["autodoc", "extension"]
 
 [[links]]
 name = "sphinx-autodoc-annotation"
 link = "https://github.com/hsoft/sphinx-autodoc-annotation"
 description = "Use Python 3 annotations in sphinx-enabled docstrings."
-tags = ["extensions"]
+tags = ["autodoc", "extension"]
 
 [[links]]
 name = "sphinx-autodoc-typehints"
 link = "https://github.com/agronholm/sphinx-autodoc-typehints"
 description = "Type hints support for the Sphinx autodoc extension"
-tags = ["extensions"]
+tags = ["autodoc", "extension"]
 
 [[links]]
 name = "sphinx-fortran-extension"
 link = "https://github.com/VACUMM/sphinx-fortran"
 description = "A Fortran domain and autodocumentation module for Sphinx."
-tags = ["extensions"]
+tags = ["extension", "language-support"]
 
 [[links]]
 name = "sphinx-gallery"
 link = "https://github.com/sphinx-gallery/sphinx-gallery"
 description = "Sphinx extension for automatic generation of an example gallery."
-tags = ["extensions"]
+tags = ["example", "extension"]
 
 [[links]]
 name = "sphinx-git"
 link = "https://github.com/OddBloke/sphinx-git"
 description = "git Changelog for Sphinx."
-tags = ["extensions"]
+tags = ["extension", "utility"]
 
 [[links]]
 name = "sphinx-jekyll-builder"
 link = "https://github.com/codejamninja/sphinx-jekyll-builder"
 description = "sphinx builder that outputs jekyll compatible markdown files with frontmatter"
-tags = ["extensions"]
+tags = ["builder", "extension"]
 
 [[links]]
 name = "sphinx-markdown-builder"
 link = "https://github.com/codejamninja/sphinx-markdown-builder"
 description = "Sphinx builder that outputs markdown files."
-tags = ["extensions"]
+tags = ["authoring", "builder", "extension"]
 
 [[links]]
 name = "Sphinx-prompt"
 link = "https://sbrunner.github.io/sphinx-prompt/"
 description = "Sphinx directive to add unselectable prompt."
-tags = ["extensions"]
+tags = ["extension", "utility"]
 
 [[links]]
 name = "Sphinx-pyreverse"
 link = "https://github.com/alendit/sphinx-pyreverse"
 description = "Simple sphinx wrapper around pyreverse (from pylint suit) to generate UML diagrams from modules."
-tags = ["extensions"]
+tags = ["diagram", "extension"]
 
 [[links]]
 name = "sphinxcontrib-autojs"
 link = "https://github.com/lunant/sphinxcontrib-autojs"
 description = "The auto JavaScript documentation Sphinx extension."
-tags = ["extensions"]
+tags = ["extension", "language-support"]
 
 [[links]]
 name = "sphinxcontrib-autoprogram"
 link = "https://pythonhosted.org/sphinxcontrib-autoprogram/"
 description = "Provides an automated way to document CLI programs."
-tags = ["extensions"]
+tags = ["api-docs", "extension"]
 
 [[links]]
 name = "sphinxcontrib-blockdiag"
 link = "http://blockdiag.com/en/blockdiag/sphinxcontrib.html"
 description = "Sphinx extension for embedding blockdiag diagrams."
-tags = ["extensions"]
+tags = ["diagram", "extension"]
 
 [[links]]
 name = "sphinxcontrib-constdata"
 link = "https://documatt.gitlab.io/sphinxcontrib-constdata/"
 description = "Extension that allows showing values, listing tables, and generating links from CSV, JSON and YAML files. Instead of hard-coding values in the text, you write constants or queries replaced with value(s) from the external file(s). If the file contains language-sensitive strings, they can be translated with the rest of the Sphinx docs."
-tags = ["extensions"]
+tags = ["extension", "utility"]
 
 [[links]]
 name = "sphinxcontrib-cldomain"
 link = "https://github.com/russell/sphinxcontrib-cldomain"
 description = "Common Lisp domain for Sphinx."
-tags = ["extensions"]
+tags = ["extension", "language-support"]
 
 [[links]]
 name = "sphinxcontrib-docbookrestapi"
 link = "https://github.com/stackforge/sphinxcontrib-docbookrestapi"
 description = "Sphinx extension that generates documentation for api-site from RST files."
-tags = ["extensions"]
+tags = ["api-docs", "extension"]
 
 [[links]]
 name = "sphinxcontrib-fulltoc"
 link = "https://github.com/dreamhost/sphinxcontrib-fulltoc"
 description = "Extension for Sphinx to make the sidebar show a full table of contents instead of just the local headings."
-tags = ["extensions"]
+tags = ["extension", "utility"]
 
 [[links]]
 name = "sphinxcontrib-httpdomain"
 link = "https://pythonhosted.org/sphinxcontrib-httpdomain/"
 description = "Provides a Sphinx domain for describing RESTful HTTP APIs. Also supports reflection for Flask, Bottle, and Tornado apps."
-tags = ["extensions"]
+tags = ["api-docs", "extension"]
 
 [[links]]
 name = "cornice.ext.sphinxext"
 link = "https://cornice.readthedocs.io/en/latest/sphinx.html"
 description = "Sphinx extension to build RESTful HTTP API documentation from Pyramid Cornice docstrings."
-tags = ["extensions"]
+tags = ["api-docs", "extension", "integration"]
 
 [[links]]
 name = "sphinxcontrib-programoutput"
 link = "https://github.com/NextThought/sphinxcontrib-programoutput"
 description = "Sphinx extension to include program output into documents."
-tags = ["extensions"]
+tags = ["extension", "utility"]
 
 [[links]]
 name = "sphinxcontrib-napoleon"
 link = "https://sphinxcontrib-napoleon.readthedocs.io/en/latest/"
 description = "Napoleon is a pre-processor that parses NumPy and Google style docstrings."
-tags = ["extensions"]
+tags = ["autodoc", "extension"]
 
 [[links]]
 name = "Tut"
 link = "https://github.com/nyergler/tut"
 description = "Tut is a tool that helps you write tutorial style documentation using Sphinx."
-tags = ["extensions"]
+tags = ["extension", "tutorial"]
 
 [[links]]
 name = "Sphinx-Needs"
 link = "https://sphinxcontrib-needs.readthedocs.io/en/latest/"
 description = "Sphinx-Needs allows the definition, linking, and filtering of need-objects: requirements, specifications, implementations, test cases, and more."
-tags = ["extensions"]
+tags = ["extension", "utility"]
 
 [[links]]
 name = "nbsphinx"
 link = "https://nbsphinx.readthedocs.io/en/latest/"
 description = "Parse, execute, and generate output from Jupyter notebooks as HTML and LaTeX. Markdown in .ipynb is converted to RST with Pandoc. Markdown cells may contain toctree markup for generating tables of contents including .ipynb and .rst files."
-tags = ["extensions"]
+tags = ["authoring", "extension", "notebooks"]
 
 [[links]]
 name = "Sphinxcontrib-proof"
 link = "https://framagit.org/spalax/sphinxcontrib-proof/"
 description = "Sphinx extension to typeset definitions, theorems, proofs, etc."
-tags = ["extensions"]
+tags = ["extension", "utility"]
 
 [[links]]
 name = "Sphinxcontrib-packages"
 link = "https://framagit.org/spalax/sphinxcontrib-packages"
 description = "A sphinx extension to list tools installed on the machine generating the documentation (python versions, binaries, python packages, LaTeX packages, etc.). Useful to know which tools are installed on Readthedocs when writing your own extension."
-tags = ["extensions"]
+tags = ["extension", "utility"]
 
 [[links]]
 name = "sphinx-sitemap"
 link = "https://github.com/jdillard/sphinx-sitemap"
 description = "sphinx-sitemap silently generates a sitemap for HTML builds."
-tags = ["extensions"]
+tags = ["extension", "publishing"]
 
 [[links]]
 name = "sphinx-jsonschema"
 link = "https://github.com/lnoor/sphinx-jsonschema"
 description = "Turns a jsonschema into an integral part of your documentation. Useful when you want a single source for both validation and documentation of your JSON entities."
-tags = ["extensions"]
+tags = ["api-docs", "extension"]
 
 [[links]]
 name = "sphinx-gitstamp"
 link = "https://github.com/jdillard/sphinx-gitstamp"
 description = "Makes the git timestamp for each page available to HTML templates."
-tags = ["extensions"]
+tags = ["extension", "utility"]
 
 [[links]]
 name = "sphinx-tags"
 link = "https://github.com/melissawm/sphinx-tags"
 description = "A tiny Sphinx extension that implements blog-style tags for documentation."
-tags = ["extensions"]
+tags = ["blogging", "extension"]
 
 [[links]]
 name = "sphinx-intl"
 link = "https://pypi.python.org/pypi/sphinx-intl"
 description = "Sphinx utility that make it easy to translate and to apply translation."
-tags = ["internationalizations"]
+tags = ["i18n", "tool"]
 
 [[links]]
 name = "django-sphinxdoc"
 link = "https://pypi.python.org/pypi/django-sphinxdoc"
 description = "Integrate Sphinx documentation into a Django-powered website. Allows you to use your sites templates, auth and so on. Offers search via Haystack."
-tags = ["miscellaneous"]
+tags = ["integration"]
 
 [[links]]
 name = "ome-documentation"
 link = "https://github.com/openmicroscopy/ome-documentation"
 description = "Sphinx-based documentation for the Open Microscopy Environment."
-tags = ["miscellaneous"]
+tags = ["example"]
 
 [[links]]
 name = "riv.vim"
 link = "https://github.com/Rykka/riv.vim"
 description = "ReStructured text editing extensions for Vim, GVim, MacVim; optionally with InstantRst gevent live reload."
-tags = ["miscellaneous"]
+tags = ["integration", "tool"]
 
 [[links]]
 name = "InstantRst"
 link = "https://github.com/Rykka/InstantRst"
 description = "A vim plugin for preview rst document instantly."
-tags = ["miscellaneous"]
+tags = ["integration", "tool"]
 
 [[links]]
 name = "sphinx-gui"
 link = "https://github.com/audreyr/sphinx-gui"
 description = "Desktop GUI for editing Sphinx docs."
-tags = ["miscellaneous"]
+tags = ["tool"]
 
 [[links]]
 name = "sphinx-markdown-sample"
 link = "https://github.com/mctenshi/sphinx-markdown-sample"
 description = "Markdown based sphinx the documentation generator sample."
-tags = ["miscellaneous"]
+tags = ["authoring", "example"]
 
 [[links]]
 name = "tinkerer"
 link = "https://github.com/vladris/tinkerer"
 description = "Blog engine static HTML5 generator with categories, tags, landing page, nav sidebar, RSS powered by Sphinx and responsive Jinja templates."
-tags = ["miscellaneous"]
+tags = ["blogging", "tool"]
 
 [[links]]
 name = "ablog"
 link = "https://ablog.readthedocs.io/"
 description = "ABlog is a Sphinx extension that converts any documentation or personal website project into a full-fledged blog with atom feeds, archive pages, blog sidebars, Disqus integration, Font-Awesome integration and easy GitHub Pages deploys"
-tags = ["miscellaneous"]
+tags = ["blogging", "extension"]
 
 [[links]]
 name = "sphobjinv"
 link = "https://sphobjinv.readthedocs.io/"
 description = "sphobjinv is a Python package and command-line tool for inspection and manpulation of the objects inventories (objects.inv files) generated by Sphinx's html builder, allowing simple determination of correct cross-reference syntax and construction of objects.inv files for documentation sets not created in Sphinx."
-tags = ["miscellaneous"]
+tags = ["tool"]
 
 [[links]]
 name = "MyST"
 link = "https://myst-parser.readthedocs.io/en/latest/"
 description = "MyST allows you to write Sphinx documentation entirely in markdown. MyST markdown provides a markdown equivalent of the reStructuredText syntax, meaning that you can do anything in MyST that you can do with reStructuredText. It is an attempt to have the best of both worlds: the flexibility and extensibility of Sphinx with the simplicity and readability of Markdown."
-tags = ["miscellaneous"]
+tags = ["authoring"]
 
 [[links]]
 name = "Jupyter Book"
 link = "https://jupyterbook.org/"
 description = "Jupyter Book builds books into formats like HTML and PDF from MyST Markdown and Jupyter notebooks with Sphinx. Jupyter Books can include interactive Jupyter notebooks, interactive data visualizations, and comments and annotations."
-tags = ["miscellaneous"]
+tags = ["authoring", "notebooks", "tool"]
 
 [[links]]
 name = "Alabaster"
 link = "https://github.com/bitprophet/alabaster"
 description = "Alabaster is a visually (c)lean, responsive, configurable theme for the Sphinx documentation system."
-tags = ["themes"]
+tags = ["theme"]
 
 [[links]]
 name = "flask-sphinx-themes"
 link = "https://github.com/pallets/flask-sphinx-themes"
 description = "Sphinx Themes for Flask related projects and Flask itself."
-tags = ["themes"]
+tags = ["theme"]
 
 [[links]]
 name = "krTheme Sphinx Style"
 link = "https://github.com/kennethreitz/kr-sphinx-themes"
 description = "Sphinx theme Kenneth Reitz uses for most projects e.g. Requests."
-tags = ["themes"]
+tags = ["theme"]
 
 [[links]]
 name = "Sphinx Readable Theme"
 link = "https://sphinx-readable-theme.readthedocs.io/en/latest/"
 description = "A clean and readable Sphinx theme with focus on autodoc – documentation from docstrings."
-tags = ["themes"]
+tags = ["theme"]
 
 [[links]]
 name = "sphinx-better-theme"
 link = "https://sphinx-better-theme.readthedocs.io/en/latest/"
 description = "A theme for Sphinx that looks nice, is easy to style with CSS, works well on small screens and mobile devices, and organizes the page better."
-tags = ["themes"]
+tags = ["theme"]
 
 [[links]]
 name = "sphinx_rtd_theme"
 link = "https://github.com/snide/sphinx_rtd_theme"
 description = "Sphinx theme for readthedocs.io."
-tags = ["themes"]
+tags = ["theme"]
 
 [[links]]
 name = "sphinx-typo3-theme"
 link = "https://github.com/TYPO3-Documentation/sphinx_typo3_theme"
 description = "Modern, responsive, standalone Sphinx theme for TYPO3 documentation. Available from PyPi."
-tags = ["themes"]
+tags = ["theme"]
 
 [[links]]
 name = "TYPO3 documentation"
 link = "https://docs.typo3.org/"
 description = "Official documentation and guides for TYPO3 users and developers."
-tags = ["themes"]
+tags = ["example"]
 
 [[links]]
 name = "sphinx-theme-graphite"
 link = "https://github.com/Cartroo/sphinx-theme-graphite"
 description = "A slightly muted light-on-dark theme for the Sphinx document generator using only CSS."
-tags = ["themes"]
+tags = ["theme"]
 
 [[links]]
 name = "sphinxjp.themes.basicstrap"
 link = "https://github.com/tell-k/sphinxjp.themes.basicstrap"
 description = "Sphinx theme built with responsive Bootstrap."
-tags = ["themes"]
+tags = ["theme"]
 
 [[links]]
 name = "sublee-sphinx-themes"
 link = "https://github.com/sublee/sublee-sphinx-themes"
 description = "Sphinx themes Heungsub Lee uses for his projects e.g. Energy, Korean, Ranking, TrueSkill."
-tags = ["themes"]
+tags = ["theme"]
 
 [[links]]
 name = "sphinx-py3doc-enhanced-theme"
 link = "https://github.com/ionelmc/sphinx-py3doc-enhanced-theme"
 description = "A theme based on the theme of https://docs.python.org/3/ with some responsive enhancements."
-tags = ["themes"]
+tags = ["theme"]
 
 [[links]]
 name = "sphinx-bootstrap-theme"
 link = "https://github.com/ryan-roemer/sphinx-bootstrap-theme"
 description = "Integrates Bootstrap CSS/Javascript framework responsive design with any Bootswatch CSS themes."
-tags = ["themes"]
+tags = ["theme"]
 
 [[links]]
 name = "sphinx-foundation-theme"
 link = "https://github.com/peterhudec/foundation-sphinx-theme"
 description = "Theme based on the Foundation 4 CSS framework."
-tags = ["themes"]
+tags = ["theme"]
 
 [[links]]
 name = "sphinx-nameko-theme"
 link = "https://github.com/onefinestay/sphinx-nameko-theme"
 description = "Forked from Sphinx Readable Theme, combined with elements of the Read The Docs theme."
-tags = ["themes"]
+tags = ["theme"]
 
 [[links]]
 name = "sphinx-guzzle-theme"
 link = "https://github.com/guzzle/guzzle_sphinx_theme"
 description = "Sphinx theme used by Guzzle: http://guzzlephp.org"
-tags = ["themes"]
+tags = ["theme"]
 
 [[links]]
 name = "sphinx-hbp-theme"
 link = "https://github.com/HumanBrainProject/hbp-sphinx-theme/"
 description = "HumanBrainProject Collaboratory Sphinx Theme."
-tags = ["themes"]
+tags = ["theme"]
 
 [[links]]
 name = "crate-docs-theme"
 link = "https://github.com/crate/crate-docs-theme"
 description = "This project provides a Sphinx theme for Crate's documentation that is compatible with ReadTheDocs."
-tags = ["themes"]
+tags = ["theme"]
 
 [[links]]
 name = "solar-theme"
 link = "https://github.com/vimalkvn/solar-theme"
 description = "Solar is an attempt to create a theme for the Python Sphinx documentation generator based on the Solarized color scheme."
-tags = ["themes"]
+tags = ["theme"]
 
 [[links]]
 name = "sphinxtrap-theme"
 link = "https://github.com/jfardello/Sphinxtrap"
 description = "Sphinxtrap is a minimalist bootstrap2-based + fontawesome sphinx theme."
-tags = ["themes"]
+tags = ["theme"]
 
 [[links]]
 name = "mdn-sphinx-theme"
 link = "https://github.com/mdn/sphinx-theme"
 description = "This is a version of the Mozilla Developer Network theme, for the Sphinx documentation engine."
-tags = ["themes"]
+tags = ["theme"]
 
 [[links]]
 name = "sphinx_adc_theme"
 link = "https://github.com/mga-sphinx/sphinx_adc_theme"
 description = "The Apple Developer Connection theme for sphinx"
-tags = ["themes"]
+tags = ["theme"]
 
 [[links]]
 name = "Read the Docs"
 link = "https://readthedocs.io/"
 description = "Read the Docs hosts documentation, making it fully searchable and easy to find.  You can import your docs using any major version control system, including Mercurial, Git, Subversion, and Bazaar.  It supports webhooks so your docs get built when you commit code.  There's also support for versioning so you can build docs from tags and branches of your code in your repository. A full list of features is available."
-tags = ["publications"]
+tags = ["hosting", "publishing"]
 
 [[links]]
 name = "Okydoky"
 link = "https://pypi.python.org/pypi/Okydoky"
 description = "Automated docs builder using Sphinx/GitHub/Distribute for private use."
-tags = ["publications"]
+tags = ["publishing", "tool"]
 
 [[links]]
 name = "sphinx-autobuild"
 link = "https://github.com/GaretJax/sphinx-autobuild"
 description = "Watch a Sphinx directory and rebuild the documentation when a change is detected."
-tags = ["publications"]
+tags = ["publishing", "tool"]
 
 [[links]]
 name = "sphinx-server"
 link = "https://github.com/dldl/sphinx-server"
 description = "A universal Sphinx Server based on sphinx-autobuild with Docker support that can be used in production (self-hosted) and for documentation development, bundled with PlantUML, Graphviz and HTTP authentication."
-tags = ["publications"]
+tags = ["hosting", "publishing", "tool"]
 
 [[links]]
 name = "sphinx-me"
 link = "https://github.com/stephenmcd/sphinx-me"
 description = "Wraps your README-only projects in a dynamic Sphinx shell for hosting on Read the Docs."
-tags = ["publications"]
+tags = ["publishing", "tool"]
 
 [[links]]
 name = "Sphinx to GitHub"
 link = "https://github.com/michaeljones/sphinx-to-github"
 description = "Script to prepare Sphinx html output for GitHub Pages."
-tags = ["publications"]
+tags = ["publishing", "tool"]
 
 [[links]]
 name = "ghp-import"
 link = "https://pypi.python.org/pypi/ghp-import"
 description = "Script to overwrite a gh-pages/master branch with a .nojekyll file for GitHub Pages."
-tags = ["publications"]
+tags = ["publishing", "tool"]
 
 [[links]]
 name = "sphinx-comments"
 link = "https://github.com/executablebooks/sphinx-comments"
 description = "Add comments and annotation functionality to your Sphinx website."
-tags = ["extensions"]
+tags = ["extension", "utility"]
 
 [[links]]
 name = "sphinx-revealjs"
 link = "https://github.com/attakei/sphinx-revealjs"
 description = "Sphinx extension with theme to generate Reveal.js presentation"
-tags = ["extensions"]
+tags = ["builder", "extension"]
 
 [[links]]
 name = "sphinxcontrib-svg2pdfconverter"
 link = "https://github.com/missinglinkelectronics/sphinxcontrib-svg2pdfconverter"
 description = "Sphinx SVG to PDF Converter Extension"
-tags = ["extensions"]
+tags = ["builder", "extension"]
 
 [[links]]
 name = "swagger-plugin-for-sphinx"
 link = "https://github.com/SAP/swagger-plugin-for-sphinx"
 description = "This is a handy plugin to bring Swagger and Sphinx together."
-tags = ["extensions"]
+tags = ["api-docs", "extension", "integration"]
 
 [[links]]
 name = "vimbuilder"
 link = "https://github.com/sphinx-contrib/vimbuilder"
 description = "Sphinx extension to create Vim help files."
-tags = ["extensions"]
+tags = ["builder", "extension", "integration"]
 
 [[links]]
 name = "sphinxext-rediraffe"
 link = "https://github.com/sphinx-doc/sphinxext-rediraffe"
 description = "This Sphinx extension redirects non-existent pages to working pages. Rediraffe can also check that deleted or renamed files in your git repo are redirected."
-tags = ["extensions"]
+tags = ["extension", "utility"]
 
 [[links]]
 name = "sphinx-reredirects"
 link = "https://github.com/documatt/sphinx-reredirects"
 description = "The extension for Sphinx documentation projects that handle redirects for moved pages."
-tags = ["extensions"]
+tags = ["extension", "utility"]
 
 [[links]]
 name = "sphinx-test-reports"
 link = "https://sphinx-test-reports.readthedocs.io/en/latest/"
 description = "Sphinx-Test-Reports shows test results of your unit tests inside your sphinx documentation."
-tags = ["extensions"]
+tags = ["extension", "testing"]
