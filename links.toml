@@ -501,3 +501,27 @@ name = "swagger-plugin-for-sphinx"
 link = "https://github.com/SAP/swagger-plugin-for-sphinx"
 description = "This is a handy plugin to bring Swagger and Sphinx together."
 tags = ["extensions"]
+
+[[links]]
+name = "vimbuilder"
+link = "https://github.com/sphinx-contrib/vimbuilder"
+description = "Sphinx extension to create Vim help files."
+tags = ["extensions"]
+
+[[links]]
+name = "sphinxext-rediraffe"
+link = "https://github.com/sphinx-doc/sphinxext-rediraffe"
+description = "This Sphinx extension redirects non-existent pages to working pages. Rediraffe can also check that deleted or renamed files in your git repo are redirected."
+tags = ["extensions"]
+
+[[links]]
+name = "sphinx-reredirects"
+link = "https://github.com/documatt/sphinx-reredirects"
+description = "The extension for Sphinx documentation projects that handle redirects for moved pages."
+tags = ["extensions"]
+
+[[links]]
+name = "sphinx-test-reports"
+link = "https://sphinx-test-reports.readthedocs.io/en/latest/"
+description = "Sphinx-Test-Reports shows test results of your unit tests inside your sphinx documentation."
+tags = ["extensions"]
