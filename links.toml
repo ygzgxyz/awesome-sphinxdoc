@@ -507,3 +507,9 @@ name = "sphinx-test-reports"
 link = "https://sphinx-test-reports.readthedocs.io/en/latest/"
 description = "Sphinx-Test-Reports shows test results of your unit tests inside your sphinx documentation."
 tags = ["extension", "testing"]
+
+[[links]]
+name = "sphinxcontrib-mermaid"
+link = "https://github.com/mgaitan/sphinxcontrib-mermaid"
+description = "This extension allows you to embed Mermaid graphs in your documents, including general flowcharts, sequence diagrams, gantt diagrams and more."
+tags = ["diagram", "extension"]
