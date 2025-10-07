@@ -29,12 +29,6 @@ description = "NumPy's Sphinx extensions."
 tags = ["extensions"]
 
 [[links]]
-name = "NumPy"
-link = "https://www.numpy.org/"
-description = "NumPy's Sphinx extensions."
-tags = ["extensions"]
-
-[[links]]
 name = "Releases"
 link = "https://github.com/bitprophet/releases"
 description = "A Sphinx changelog-generating extension."
@@ -116,12 +110,6 @@ tags = ["extensions"]
 name = "sphinxcontrib-blockdiag"
 link = "http://blockdiag.com/en/blockdiag/sphinxcontrib.html"
 description = "Sphinx extension for embedding blockdiag diagrams."
-tags = ["extensions"]
-
-[[links]]
-name = "blockdiag"
-link = "http://blockdiag.com/en/blockdiag/index.html"
-description = "diagrams."
 tags = ["extensions"]
 
 [[links]]
@@ -212,12 +200,6 @@ tags = ["extensions"]
 name = "sphinx-jsonschema"
 link = "https://github.com/lnoor/sphinx-jsonschema"
 description = "Turns a jsonschema into an integral part of your documentation. Useful when you want a single source for both validation and documentation of your JSON entities."
-tags = ["extensions"]
-
-[[links]]
-name = "jsonschema"
-link = "https://json-schema.org"
-description = "JSON Schema is a vocabulary that allows you to annotate and validate JSON documents."
 tags = ["extensions"]
 
 [[links]]
