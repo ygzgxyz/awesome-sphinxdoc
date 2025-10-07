@@ -13,59 +13,68 @@ This project is built using **Rust** and managed with **Cargo**. The HTML genera
 
 We welcome contributions! To add a new link to the Awesome Sphinxdoc list:
 
-1.  **Edit `links.toml`:** Open the `links.toml` file in the project root.
-2.  **Add a new entry:** Append a new `[[links]]` entry with the following structure:
+1.  **Start the development server:**
+    Run the following command to start the development server. You can optionally provide a port number.
+
+    ```bash
+    cargo run -- dev [PORT]
+    ```
+2.  **Edit `links.toml`:** Open the `links.toml` file in the project root and add a new `[[links]]` entry with the following structure:
 
     ```toml
     [[links]]
     name = "Your Link Name"
     link = "https://example.com/your-link"
-description = "A brief description of what this link offers."
-tags = ["tag1", "tag2"]
+    description = "A brief description of what this link offers."
+    tags = ["tag1", "tag2"]
     ```
 
     *   `name`: The title of the resource.
     *   `link`: The URL to the resource.
     *   `description`: A concise explanation of the resource.
-    *   `tags`: A list of relevant tags (e.g., `"extensions"`, `"themes"`, `"tutorial"`, `"miscellaneous"`, `"publication"`, `"internationalizations"`).
+    *   `tags`: A list of relevant tags.
 
-3.  **Generate HTML:** After adding your entry, run the builder to update `dist/index.html`:
+3.  **Verify your changes:** The development server will automatically rebuild the page. Open `http://127.0.0.1:<PORT>` in your browser (e.g., `http://127.0.0.1:8000`) to see your changes and make sure they look correct.
 
-    ```bash
-    cargo run
-    ```
-
-4.  **Submit a Pull Request:** Create a pull request on the GitHub repository with your changes.
-
-For local development and testing, refer to the [Contributing](#contributing) section.
+4.  **Submit a Pull Request:** Once you are happy with your changes, commit them and create a pull request on the GitHub repository.
 
 ## Contributing
 
-To work on this project (build, generate HTML, and serve locally for development):
+This project includes a development server that simplifies local development by automatically rebuilding the HTML file when you make changes.
 
-1.  **Build Project:** Compile the Rust executable without running it. This creates the executable in `target/debug/`.
+### Development Workflow
 
-    ```bash
-    cargo build
-    ```
-
-2.  **Generate HTML:** Compile (if necessary) and run the project to create `dist/index.html`.
+1.  **Start the Dev Server:**
+    Run the following command to start the development server. By default, it runs on port 8000.
 
     ```bash
-    cargo run
+    cargo run -- dev
     ```
 
-3.  **Serve Locally:** Run a local HTTP server.
+    You can also specify a custom port:
 
     ```bash
-    python3 -m http.server 8000 --directory dist &
+    cargo run -- dev 8080
     ```
 
-4.  **View:** Access in browser.
+    This will:
+    *   Perform an initial build of the `dist/index.html` file.
+    *   Start a local web server at the specified (or default) port.
+    *   Watch for changes in `links.toml` and `templates/template.html` and automatically rebuild the HTML file.
 
-    ```
-    http://localhost:8000/index.html
-    ```
+2.  **Make Changes:**
+    Edit files like `links.toml` or `templates/template.html`. The server will detect the changes and rebuild automatically.
+
+3.  **View in Browser:**
+    Open `http://127.0.0.1:<PORT>` in your browser (e.g., `http://127.0.0.1:8000`) to see your changes.
+
+### Checking for Broken Links
+
+Before submitting a pull request, it's a good practice to check for any broken links. You can do this with the `check-links` command:
+
+```bash
+cargo run -- check-links
+```
 
 ## Features
 

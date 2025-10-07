@@ -15,7 +15,7 @@ jobs:
         uses: actions-rust-lang/setup-rust-toolchain@v1
 
       - name: Build HTML
-        run: cargo run --bin awesome_sphinxdoc_builder
+        run: cargo run
 
       - name: Check Links
-        run: cargo run --bin awesome_sphinxdoc_link_checker
+        run: cargo run -- check-links

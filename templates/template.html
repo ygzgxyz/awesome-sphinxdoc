@@ -75,6 +75,7 @@
                 display: inline-block;
                 font-size: 0.8rem;
                 margin-right: 0.5rem;
+                margin-bottom: 0.5rem;
                 padding: 0.2rem 0.5rem;
                 text-decoration: none;
             }
@@ -84,6 +85,8 @@
                 border-color: #007bff;
             }
             #global-tags-container {
+                display: flex;
+                flex-wrap: wrap;
                 margin-bottom: 1rem;
             }
         </style>
@@ -131,7 +134,6 @@
                     >的精选优质资源列表。
                 </p>
             </div>
-            <div id="global-tags-container"></div>
         </header>
         <main>
             <div class="main-content" lang="en">
@@ -246,6 +248,7 @@
                     获得许可。
                 </p>
             </div>
+            <div id="global-tags-container"></div>
             <ul>
                 {% for link in links %}
                 <li data-tags="{{ link.tags | join(', ') }}">
