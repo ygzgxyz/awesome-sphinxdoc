@@ -419,6 +419,12 @@ description = "The Apple Developer Connection theme for sphinx"
 tags = ["theme"]
 
 [[links]]
+name = "Lumina"
+link = "https://github.com/r4sky0/sphinx-lumina-theme"
+description = "A modern Sphinx theme with Tailwind CSS, dark mode, instant search, and responsive layout."
+tags = ["theme"]
+
+[[links]]
 name = "Read the Docs"
 link = "https://readthedocs.io/"
 description = "Read the Docs hosts documentation, making it fully searchable and easy to find.  You can import your docs using any major version control system, including Mercurial, Git, Subversion, and Bazaar.  It supports webhooks so your docs get built when you commit code.  There's also support for versioning so you can build docs from tags and branches of your code in your repository. A full list of features is available."
