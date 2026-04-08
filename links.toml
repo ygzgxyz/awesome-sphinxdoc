@@ -513,3 +513,9 @@ name = "sphinxcontrib-mermaid"
 link = "https://github.com/mgaitan/sphinxcontrib-mermaid"
 description = "This extension allows you to embed Mermaid graphs in your documents, including general flowcharts, sequence diagrams, gantt diagrams and more."
 tags = ["diagram", "extension"]
+
+[[links]]
+name = "sphinxcontrib-nexus"
+link = "https://github.com/deOliveira-R/sphinxcontrib-nexus"
+description = "Unified code + documentation knowledge graph. Extracts equations, cross-references, call graphs, and citations into a queryable SQLite/NetworkX graph. MCP server with 20 tools, interactive visualizer, and Python API."
+tags = ["extension", "knowledge-graph", "code-analysis", "mcp"]
