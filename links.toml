@@ -97,7 +97,7 @@ tags = ["diagram", "extension"]
 [[links]]
 name = "sphinx-ultra"
 link = "https://github.com/salioglu/sphinx-ultra"
-description = "A Rust reimplementation of sphinx-build for large documentation projects, with a parallel build pipeline and incremental caching. Pre-1.0 and under active development."
+description = "A Rust reimplementation of sphinx-build for large documentation projects, with a parallel build pipeline and incremental caching."
 tags = ["builder", "tool"]
 
 [[links]]
