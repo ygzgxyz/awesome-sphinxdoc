@@ -23,6 +23,12 @@ description = "Sphinx extension for documenting Java projects."
 tags = ["extension", "language-support"]
 
 [[links]]
+name = "sphinx-java-autodoc"
+link = "https://github.com/r4sky0/sphinx-java-autodoc"
+description = "Java API documentation from sources and Javadoc, rendered as native Sphinx content."
+tags = ["api-docs", "autodoc", "extension", "language-support"]
+
+[[links]]
 name = "numpydoc"
 link = "https://github.com/numpy/numpydoc"
 description = "NumPy's Sphinx extensions."
